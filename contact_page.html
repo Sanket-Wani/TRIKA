@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+  <link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Space+Grotesk:wght@400;500;700"
+    onload="this.rel='stylesheet'" rel="stylesheet" />
+  <link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans:wght@400;500;700;900"
+    onload="this.rel='stylesheet'" rel="stylesheet" />
+  <title>Trika Productions - Contact</title>
+  <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style type="text/tailwindcss">
+    :root {
+        --primary-500: #8013ec;
+        --primary-600: #6d11c7;
+      }
+    </style>
+</head>
+
+<body class="bg-[#100e14] text-white">
+  <div class="flex flex-col min-h-screen" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+    <header class="flex items-center justify-between whitespace-nowrap px-10 py-6">
+      <div class="flex items-center gap-3 text-white">
+        <img src="Group 19.png" alt="Trika Productions Logo" class="h-9 w-200 object-contain" />
+
+      </div>
+      <div class="flex items-center gap-8">
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a class="hover:text-[var(--primary-color)] transition-colors" href="index.html">Home</a>
+
+          <a class="hover:text-[var(--primary-color)] transition-colors" href="portfolio_page.html">Portfolio</a>
+          <a class="hover:text-[var(--primary-color)] transition-colors" href="meet_team.html">Meet our
+            Team</a>
+        </nav>
+
+      </div>
+    </header>
+    <main class="flex-grow">
+      <section class="py-20 sm:py-32">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="text-base font-semibold leading-7 text-[var(--primary-500)]">Contact Us</p>
+            <h2 class="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Let's Create Together</h2>
+            <p class="mt-6 text-lg leading-8 text-gray-300">Have a project in mind or just want to say hello? We'd love
+              to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+          </div>
+          <div class="mx-auto mt-16 max-w-xl sm:mt-20">
+            <form action="#" class="space-y-6" method="POST">
+              <div>
+                <label class="block text-sm font-semibold leading-6 text-white" for="name">Name</label>
+                <div class="mt-2.5">
+                  <input autocomplete="name"
+                    class="block w-full rounded-md border-0 bg-[#1e1925] px-4 py-3 text-white shadow-sm ring-1 ring-inset ring-[#473b54] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-500)] sm:text-sm sm:leading-6 transition-all duration-300"
+                    id="name" name="name" placeholder="Enter your name" type="text" />
+                </div>
+              </div>
+              <div>
+                <label class="block text-sm font-semibold leading-6 text-white" for="email">Email</label>
+                <div class="mt-2.5">
+                  <input autocomplete="email"
+                    class="block w-full rounded-md border-0 bg-[#1e1925] px-4 py-3 text-white shadow-sm ring-1 ring-inset ring-[#473b54] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-500)] sm:text-sm sm:leading-6 transition-all duration-300"
+                    id="email" name="email" placeholder="Enter your email address" type="email" />
+                </div>
+              </div>
+              <div>
+                <label class="block text-sm font-semibold leading-6 text-white" for="message">Message</label>
+                <div class="mt-2.5">
+                  <textarea
+                    class="block w-full rounded-md border-0 bg-[#1e1925] px-4 py-3 text-white shadow-sm ring-1 ring-inset ring-[#473b54] placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[var(--primary-500)] sm:text-sm sm:leading-6 transition-all duration-300"
+                    id="message" name="message" placeholder="How can we help?" rows="4"></textarea>
+                </div>
+              </div>
+              <div class="pt-4">
+                <button
+                  class="block w-full rounded-md bg-[var(--primary-500)] px-3.5 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-[var(--primary-600)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary-500)] transition-all duration-300 transform hover:scale-105"
+                  type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <div class="mt-10 text-center text-sm text-gray-400">
+              <p>Or contact us directly:</p>
+              <p class="mt-2">
+                <a class="hover:text-[var(--primary-500)] transition-colors"
+                  href="mailto:trika.productions@gmail.com">Email: trika.productions@gmail.com</a>
+                <span class="mx-2">|</span>
+                <a class="hover:text-[var(--primary-500)] transition-colors" href="tel:9404088788">Phone/WhatsApp:
+                  9404088788</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#1e1925]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="flex justify-center items-center gap-4 mb-8">
+          <div class="flex items-center gap-3 text-white">
+            <img src="Group 19.png" alt="Trika Productions Logo" class="h-9 w-200 object-contain" />
+
+          </div>
+
+          <p class="text-center text-sm text-gray-500">© 2024 Trika Productions. All rights reserved.</p>
+        </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

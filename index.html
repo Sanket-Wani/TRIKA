@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+    <link as="style"
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+        onload="this.rel='stylesheet'" rel="stylesheet" />
+    <title>Trika Productions</title>
+    <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style type="text/tailwindcss">
+        :root {
+        --primary-color: #7f13ec;
+      }
+      .group:hover .group-hover-effect {
+        transform: scale(1.05);
+      }
+    </style>
+</head>
+
+<body class="bg-[#100E14]">
+    <div class="relative flex h-auto min-h-screen w-full flex-col text-white dark group/design-root overflow-x-hidden"
+        style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+        <video autoplay="" class="absolute z-0 w-full h-full object-cover opacity-30" loop="" muted="">
+            <source src="https://videos.pexels.com/video-files/854784/854784-hd_1920_1080_25fps.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="relative z-10 flex h-full grow flex-col">
+            <header class="flex items-center justify-between whitespace-nowrap px-10 py-6">
+                <div class="flex items-center gap-3 text-white">
+                    <img src="Group 19.png" alt="Trika Productions Logo" class="h-9 w-200 object-contain" />
+
+                </div>
+                <div class="flex items-center gap-8">
+                    <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                        <a class="hover:text-[var(--primary-color)] transition-colors"
+                            href="portfolio_page.html">Portfolio</a>
+                        <a class="hover:text-[var(--primary-color)] transition-colors" href="meet_team.html">Meet our
+                            Team</a>
+                    </nav>
+                    <a href="contact_page.html"
+                        class="hidden md:flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-6 bg-white/10 text-white text-sm font-bold tracking-wider hover:bg-white/20 transition-colors">
+                        <span class="truncate">Contact us!</span>
+                    </a>
+                </div>
+            </header>
+            <main class="flex-1 flex flex-col items-center justify-center text-center px-4">
+                <div class="max-w-4xl">
+                    <h1 class="text-6xl md:text-8xl font-bold tracking-tighter mb-6 leading-tight"
+                        style="text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+                        Crafting Visual Stories That Resonate
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-10">We are a creative powerhouse,
+                        producing premium content that captivates and inspires.</p>
+                    <div class="flex justify-center">
+                        <a href="portfolio_page.html"
+                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-12 px-8 bg-[var(--primary-color)] text-white text-base font-bold tracking-wider transform hover:scale-105 transition-transform duration-300">
+                            <span class="truncate">Explore Our Work</span>
+                        </a>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center p-6 text-sm text-gray-400">
+                <p>© 2024 Trika Productions. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
